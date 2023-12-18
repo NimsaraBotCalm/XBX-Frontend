@@ -1,4 +1,7 @@
 .blue-gradient{
-    background: radial-gradient(circle, rgba(0, 110, 172, 0.91) 0%, rgba(0, 0, 255, 0) 100%);
-    filter: blur(172px);
+    background: radial-gradient(circle, rgba(0, 110, 172, 0.7) 1%, rgba(0, 0, 0, 0) 70%);  
+}
+
+.green-gradient{
+    background: radial-gradient(circle, rgba(0, 255, 224, 0.28) 1%, rgba(0, 0, 0, 0) 70%);  
 }
