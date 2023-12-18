@@ -12,7 +12,7 @@ const TopNav = () => {
         setMenuShow((prev)=> !prev);
     }
     return (
-        <div className='flex items-center justify-between relative px-10 xl:px-0'>
+        <div className='flex items-center justify-between relative px-10 xl:px-20 lg:px-10'>
             <div className='w-1/2 z-10'>
                 <div className='md:w-32 md:h-32 w-24 h-24 xl:ml-auto xl:mr-0 mr-auto transform xl:translate-x-1/2 cursor-pointer'>
                     <img src={logo} alt="logo" className='w-full h-full object-contain' />
@@ -48,7 +48,7 @@ const TopNav = () => {
                     </div>
                 </div>
             </nav>}
-            <nav className='md:w-1/2 items-center justify-center md:flex hidden absolute md:relative top-32 md:top-0 w-full left-0 px-10 md:px-0 leading-[60px] md:leading-snug z-10'>
+            <nav className='md:w-1/2 items-center justify-end md:flex hidden absolute md:relative top-32 md:top-0 w-full left-0 px-10 md:px-0 leading-[60px] md:leading-snug z-10'>
                 <div className='mr-10'>
                     <span className='text-gray-500 font-bold md:block hidden'>/ 01</span>
                     <div className='flex items-center text-white'>
