@@ -12,7 +12,7 @@ const ShapedTpButton = ({ label, to, className, bgColor }) => {
             <div className=' absolute inset-0' style={{ clipPath: 'polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 38%)' }}></div>
                 {label} <MdArrowOutward />
             </div>
-            <div className='border rounded-md md:w-48 md:h-16 h-10 w-32'>
+            <div className='border rounded-md md:w-48 md:h-16 h-10 w-32' style={{ clipPath: 'polygon(100% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 100%)' }}>
             </div>
         </div>
     )
