@@ -47,7 +47,7 @@ const LandingPage = () => {
         <Footer />
       </div>
       <div
-        className='flex items-center flex-col sticky bottom-5 md:left-[95%] left-[80%] z-10 cursor-pointer text-white w-fit'
+        className='flex items-center flex-col sticky bottom-5 md:left-[95%] left-[80%] z-10 cursor-pointer text-white w-fit  hover:scale-125 transition-all transition-300'
         onClick={handleScroll}
       >
         <p className='text-xs'>{isAtTop ? 'Scroll Down' : 'Scroll Up'}</p>
