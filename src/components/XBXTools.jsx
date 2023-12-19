@@ -16,7 +16,7 @@ const XBXTools = () => {
             <br />
             <div className='flex items-start lg:ml-auto mx-auto lg:mx-0 text-sm 4xl:text-lg md:mb-20 text-left md:text-center w-52'><img src={starImage} className='w-3 text-white' /><h6><span className='text-gray-400'>AI adapts to your risk tolerance and </span>autonomously executes trades.</h6></div>
             <div className='content-between flex-row lg:flex hidden xl:gap-5 xl:p-10 p-0 gap-1'>
-                    <div className='w-1/4 relative xl:-translate-y-32 hover:-translate-y-36 transition-all cursor-pointer'>
+                    <div className='w-1/4 relative xl:-translate-y-32 xl:hover:-translate-y-36 transition-all cursor-pointer'>
                         <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
                         <div className='absolute top-0 left-0 p-10'>
                             <div className='w-16 h-16'>
@@ -29,7 +29,7 @@ const XBXTools = () => {
                             <ShapedTpButton label={'About'} className={''} />
                         </div>
                     </div>
-                    <div className='w-1/4 relative xl:-translate-y-20 hover:-translate-y-24 transition-all cursor-pointer'>
+                    <div className='w-1/4 relative xl:-translate-y-20 xl:hover:-translate-y-24 transition-all cursor-pointer'>
                         <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
                         <div className='absolute top-0 left-0 p-10'>
                             <div className='w-16 h-16'>
@@ -42,7 +42,7 @@ const XBXTools = () => {
                             <ShapedTpButton label={'About'} className={''} />
                         </div>
                     </div>
-                    <div className='w-1/4 relative xl:-translate-y-10 hover:-translate-y-12 transition-all cursor-pointer'>
+                    <div className='w-1/4 relative xl:-translate-y-10 xl:hover:-translate-y-12 transition-all cursor-pointer'>
                         <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
                         <div className='absolute top-0 left-0 p-10'>
                             <div className='w-16 h-16'>
@@ -55,7 +55,7 @@ const XBXTools = () => {
                             <ShapedTpButton label={'About'} className={''} />
                         </div>
                     </div>
-                    <div className='w-1/4 relative hover:-translate-y-2 transition-all cursor-pointer'>
+                    <div className='w-1/4 relative xl:hover:-translate-y-2 transition-all cursor-pointer'>
                         <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
                         <div className='absolute top-0 left-0 p-10'>
                             <div className='w-16 h-16'>

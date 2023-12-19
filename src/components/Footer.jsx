@@ -13,9 +13,9 @@ const Footer = () => {
         <p>Scroll Up</p>
       </div> */}
       <div className='text-2xl w-fit flex gap-5 4xl:text-4xl'>
-        <Link to={'https://www.twitter.com'} target='_blank'><BsTwitterX /></Link>
-        <Link to={'https://wwww.github.com'} target='_blank'><FaGithub /></Link>
-        <Link to={'https://www.telegram.com'} target='_blank'><PiTelegramLogo /></Link>
+        <Link to={'https://www.twitter.com'} target='_blank' className='hover:brightness-50'><BsTwitterX /></Link>
+        <Link to={'https://wwww.github.com'} target='_blank' className='hover:brightness-50'><FaGithub /></Link>
+        <Link to={'https://www.telegram.com'} target='_blank' className='hover:brightness-50'><PiTelegramLogo /></Link>
       </div>
       <div className='w-fit xl:absolute xl:left-1/2 xl:bottom-10 transform xl:-translate-x-1/2 text-center 4xl:text-lg'>
         © Copyright {date.getFullYear()} XBX
@@ -24,28 +24,28 @@ const Footer = () => {
         <div className='mr-10 4xl:text-lg'>
           <span className='text-gray-500 font-bold md:block hidden'>/ 01</span>
           <div className='flex items-center text-white cursor-pointer'>
-            <h6 className='mr-1'>Products</h6>
+            <h6 className='mr-1 hover:mr-2 transition-all transition-300'>Products</h6>
             <FaChevronUp className='text-xs' />
           </div>
         </div>
         <div className='mr-10 4xl:text-lg'>
           <span className='text-gray-500 font-bold md:block hidden'>/ 02</span>
           <div className='flex items-center text-white cursor-pointer'>
-            <h6 className='mr-1'>Socials</h6>
+            <h6 className='mr-1 hover:mr-2 transition-all transition-300'>Socials</h6>
             <FaChevronUp className='text-xs' />
           </div>
         </div>
         <div className='mr-10 4xl:text-lg'>
           <span className='text-gray-500 font-bold md:block hidden'>/ 03</span>
           <div className='flex items-center text-white cursor-pointer'>
-            <h6 className='mr-1'>Dashboard</h6>
+            <h6 className='mr-1 hover:mr-2 transition-all transition-300'>Dashboard</h6>
             <FaChevronUp className='text-xs' />
           </div>
         </div>
         <div className='4xl:text-lg'>
           <span className='text-gray-500 font-bold md:block hidden'>/ 04</span>
           <div className='flex items-center text-white cursor-pointer'>
-            <h6 className='mr-1'>Docs</h6>
+            <h6 className='mr-1 hover:mr-2 transition-all transition-300'>Docs</h6>
             <FaChevronUp className='text-xs' />
 
           </div>

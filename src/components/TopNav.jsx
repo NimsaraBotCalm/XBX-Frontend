@@ -59,31 +59,31 @@ const TopNav = () => {
             </nav>}
             {/* Desktop */}
             <nav className='md:w-1/2 items-center justify-end md:flex hidden absolute md:relative top-32 md:top-0 w-full left-0 px-10 md:px-0 leading-[60px] md:leading-snug z-10'>
-                <div className='mr-10 4xl:text-lg'>
+                <div className='mr-10 4xl:text-lg cursor-pointer'>
                     <span className='text-gray-500 font-bold md:block hidden'>/ 01</span>
                     <div className='flex items-center text-white'>
-                        <h6 className='mr-1'>Products</h6>
+                        <h6 className='mr-1 hover:mr-2 transition-all transition-300'>Products</h6>
                         <FaChevronDown className='text-xs'/>
                     </div>
                 </div>
-                <div className='mr-10 4xl:text-lg'>
+                <div className='mr-10 4xl:text-lg cursor-pointer'>
                     <span className='text-gray-500 font-bold md:block hidden'>/ 02</span>
                     <div className='flex items-center text-white'>
-                        <h6 className='mr-1'>Socials</h6>
+                        <h6 className='mr-1 hover:mr-2 transition-all transition-300'>Socials</h6>
                         <FaChevronDown className='text-xs'/>
                     </div>
                 </div>
-                <div className='mr-10 4xl:text-lg'>
+                <div className='mr-10 4xl:text-lg cursor-pointer'>
                     <span className='text-gray-500 font-bold md:block hidden'>/ 03</span>
                     <div className='flex items-center text-white'>
-                        <h6 className='mr-1'>Dashboard</h6>
+                        <h6 className='mr-1 hover:mr-2 transition-all transition-300'>Dashboard</h6>
                         <FaChevronDown className='text-xs'/>
                     </div>
                 </div>
-                <div className='4xl:text-lg'>
+                <div className='4xl:text-lg cursor-pointer'>
                     <span className='text-gray-500 font-bold md:block hidden'>/ 04</span>
                     <div className='flex items-center text-white'>
-                        <h6 className='mr-1'>Docs</h6>
+                        <h6 className='mr-1 hover:mr-2 transition-all transition-300'>Docs</h6>
                         <FaChevronDown className='text-xs'/>
                     </div>
                 </div>
