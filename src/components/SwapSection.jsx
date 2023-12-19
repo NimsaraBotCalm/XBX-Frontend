@@ -15,7 +15,7 @@ const SwapSection = () => {
             </motion.div>
             {/* DESKTOP */}
             <div className='mb-10 md:mb-0 relative justify-between lg:px-10 items-center flex lg:flex-row flex-col-reverse'>
-                <div className='lg:w-1/2 w-full relative green-gradient-sm md:backdrop-blur-md xl:hover:-translate-y-2 transition-all cursor-pointer'>
+                <div className='lg:w-1/2 w-full relative green-gradient-sm md:backdrop-blur-md xl:hover:-translate-y-2 transition-all cursor-pointer' style={{clipPath: 'polygon(0% 00%, 85% 0%, 180% 100%, 0% 100%)'}}>
                     <img src={swapdesk01} className='w-full h-full object-contain lg:block hidden' />
                     <img src={swapdesk01Mobile} className='w-full h-full object-contain block lg:hidden' />
                     <div className='absolute md:top-3 top-10 left-0 w-full xl:px-20 px-10 xl:py-0 lg:py-10 md:py-28 4xl:py-32'>
