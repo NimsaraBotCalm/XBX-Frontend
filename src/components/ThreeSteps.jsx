@@ -1,0 +1,54 @@
+import React from 'react'
+import stepsBorder from '../assets/steps-border.svg'
+import stepsCount from '../assets/steps-count.svg'
+import { FaGreaterThan } from 'react-icons/fa'
+const ThreeSteps = () => {
+  return (
+    <section className='flex items-center md:flex-row flex-col xl:px-20 gap-10'>
+      <div className='md:w-1/3 w-full relative'>
+        <img src={stepsBorder} alt="border" className='w-full' />
+        <div className='absolute -top-10 xl:-left-10'>
+          <div className='w-20 relative'>
+            <img src={stepsCount} alt="count" className='w-full h-full object-contain' />
+            <p className='absolute top-5 left-5 text-2xl text-black font-extrabold'>#01</p>
+          </div>
+        </div>
+        <ul className='absolute top-1/4 left-10 xl:mt-0 mt-10 text-white uppercase'>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Early smart buyers realtime monitoring</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Smart wallets realtime monitoring</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Realtime token analytics</li>
+        </ul>
+      </div>
+      <div className='md:w-1/3 w-full relative'>
+        <img src={stepsBorder} alt="border" className='w-full' />
+        <div className='absolute -top-10 xl:-left-10'>
+          <div className='w-20 relative'>
+            <img src={stepsCount} alt="count" className='w-full h-full object-contain' />
+            <p className='absolute top-5 left-5 text-2xl text-black font-extrabold'>#02</p>
+          </div>
+        </div>
+        <ul className='absolute top-1/4 left-10 xl:mt-0 mt-10 text-white uppercase'>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Early smart buyers realtime monitoring</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Smart wallets realtime monitoring</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Realtime token analytics</li>
+        </ul>
+      </div>
+      <div className='md:w-1/3 w-full relative'>
+        <img src={stepsBorder} alt="border" className='w-full' />
+        <div className='absolute -top-10 xl:-left-10'>
+          <div className='w-20 relative'>
+            <img src={stepsCount} alt="count" className='w-full h-full object-contain' />
+            <p className='absolute top-5 left-5 text-2xl text-black font-extrabold'>#03</p>
+          </div>
+        </div>
+        <ul className='absolute top-1/4 left-10 xl:mt-0 mt-10 text-white uppercase'>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Early smart buyers realtime monitoring</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Smart wallets realtime monitoring</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Realtime token analytics</li>
+        </ul>
+      </div>
+    </section>
+  )
+}
+
+export default ThreeSteps
