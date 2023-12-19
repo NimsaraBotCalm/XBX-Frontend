@@ -1,9 +1,8 @@
 import React from 'react'
 import { BsTwitterX } from 'react-icons/bs'
-import { FaChevronDown, FaChevronUp, FaGithub } from 'react-icons/fa'
+import { FaChevronUp, FaGithub } from 'react-icons/fa'
 import { PiTelegramLogo } from 'react-icons/pi'
 import { Link } from 'react-router-dom'
-import scrollImage from '../assets/scroll-icon.svg'
 
 const Footer = () => {
   const date = new Date();
@@ -13,37 +12,37 @@ const Footer = () => {
         <img src={scrollImage} alt="scroll-icon" className='w-10 h-10 rotate-180' />
         <p>Scroll Up</p>
       </div> */}
-      <div className='text-2xl w-fit flex gap-5'>
+      <div className='text-2xl w-fit flex gap-5 4xl:text-4xl'>
         <Link to={'https://www.twitter.com'} target='_blank'><BsTwitterX /></Link>
         <Link to={'https://wwww.github.com'} target='_blank'><FaGithub /></Link>
         <Link to={'https://www.telegram.com'} target='_blank'><PiTelegramLogo /></Link>
       </div>
-      <div className='w-fit xl:absolute xl:left-1/2 xl:bottom-10 transform xl:-translate-x-1/2 text-center'>
-        © Copyright {date.getFullYear()} Content
+      <div className='w-fit xl:absolute xl:left-1/2 xl:bottom-10 transform xl:-translate-x-1/2 text-center 4xl:text-lg'>
+        © Copyright {date.getFullYear()} XBX
       </div>
       <nav className=' items-center justify-end xl:flex hidden w-fit md:leading-snug'>
-        <div className='mr-10'>
+        <div className='mr-10 4xl:text-lg'>
           <span className='text-gray-500 font-bold md:block hidden'>/ 01</span>
           <div className='flex items-center text-white cursor-pointer'>
             <h6 className='mr-1'>Products</h6>
             <FaChevronUp className='text-xs' />
           </div>
         </div>
-        <div className='mr-10'>
+        <div className='mr-10 4xl:text-lg'>
           <span className='text-gray-500 font-bold md:block hidden'>/ 02</span>
           <div className='flex items-center text-white cursor-pointer'>
             <h6 className='mr-1'>Socials</h6>
             <FaChevronUp className='text-xs' />
           </div>
         </div>
-        <div className='mr-10'>
+        <div className='mr-10 4xl:text-lg'>
           <span className='text-gray-500 font-bold md:block hidden'>/ 03</span>
           <div className='flex items-center text-white cursor-pointer'>
             <h6 className='mr-1'>Dashboard</h6>
             <FaChevronUp className='text-xs' />
           </div>
         </div>
-        <div>
+        <div className='4xl:text-lg'>
           <span className='text-gray-500 font-bold md:block hidden'>/ 04</span>
           <div className='flex items-center text-white cursor-pointer'>
             <h6 className='mr-1'>Docs</h6>

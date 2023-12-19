@@ -14,9 +14,9 @@ const ThreeSteps = () => {
           </div>
         </div>
         <ul className='absolute top-1/4 left-10 xl:mt-0 mt-10 text-white uppercase'>
-          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Early smart buyers realtime monitoring</li>
-          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Smart wallets realtime monitoring</li>
-          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Realtime token analytics</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md 4xl:text-lg'><FaGreaterThan />Early smart buyers realtime monitoring</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md 4xl:text-lg'><FaGreaterThan />Smart wallets realtime monitoring</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md 4xl:text-lg'><FaGreaterThan />Realtime token analytics</li>
         </ul>
       </div>
       <div className='lg:w-1/3 w-full relative xl:-translate-y-10'>
@@ -28,9 +28,9 @@ const ThreeSteps = () => {
           </div>
         </div>
         <ul className='absolute top-1/4 left-10 xl:mt-0 mt-10 text-white uppercase'>
-          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Early smart buyers realtime monitoring</li>
-          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Smart wallets realtime monitoring</li>
-          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Realtime token analytics</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md 4xl:text-lg'><FaGreaterThan />Early smart buyers realtime monitoring</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md 4xl:text-lg'><FaGreaterThan />Smart wallets realtime monitoring</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md 4xl:text-lg'><FaGreaterThan />Realtime token analytics</li>
         </ul>
       </div>
       <div className='lg:w-1/3 w-full relative xl:-translate-y-24'>
@@ -42,9 +42,9 @@ const ThreeSteps = () => {
           </div>
         </div>
         <ul className='absolute top-1/4 left-10 xl:mt-0 mt-10 text-white uppercase'>
-          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Early smart buyers realtime monitoring</li>
-          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Smart wallets realtime monitoring</li>
-          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Realtime token analytics</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md 4xl:text-lg'><FaGreaterThan />Early smart buyers realtime monitoring</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md 4xl:text-lg'><FaGreaterThan />Smart wallets realtime monitoring</li>
+          <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md 4xl:text-lg'><FaGreaterThan />Realtime token analytics</li>
         </ul>
       </div>
     </section>
