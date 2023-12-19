@@ -65,7 +65,7 @@ const MainBanner = () => {
             </div>
             <div className='flex items-end md:flex-row flex-col px-10 xl:-mt-52 lg:-mt-40 md:-mt-20 mt-20 w-fit md:w-full mx-auto'>
                 <div className='w-72'>
-                    <div className='flex items-start text-sm 4xl:text-lg md:mb-20 text-left md:text-center'><img src={starImage} className='w-3 text-white' /><h6><span className='text-gray-400'>AI adapts to your risk tolerance and </span>autonomously executes trades.</h6></div>
+                    <div className='flex items-start text-sm 4xl:text-2xl md:mb-20 text-left md:text-center'><img src={starImage} className='w-3 text-white' /><h6><span className='text-gray-400'>AI adapts to your risk tolerance and </span>autonomously executes trades.</h6></div>
                     <p className='text-white text-sm mb-5 4xl:text-lg'>Support Chains</p>
                     <div className='flex items-center justify-between gap-3'>
                         <div className='w-16 h-16 cursor-pointer'>
