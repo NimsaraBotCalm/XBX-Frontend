@@ -7,8 +7,8 @@ import mobileBorderBox from '../assets/mobile-tool-box.svg'
 import moneyIcon from '../assets/money-icon.svg'
 const XBXTools = () => {
     return (
-        <section className='text-white md:py-40 py-10 text-center xl:px-20 lg:px-10 green-gradient-sm max-w-[2000px] mx-auto'>
-            <h1 className='md:text-8xl text-5xl header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest'><span className='stroke-text'>XBX </span>TOOLS</h1>
+        <section className='text-white md:py-40 py-10 text-center xl:px-20 lg:px-10 green-gradient-sm max-w-[2000px] mx-auto overflow-hidden'>
+            <h1 className='xl:text-8xl md:text-5xl text-3xl mb-10 md:mb-0 header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest'><span className='stroke-text'>XBX </span>TOOLS</h1>
             <br />
             <div className='flex items-start ml-auto text-sm md:mb-20 text-left md:text-center w-52'><img src={starImage} className='w-3 text-white' /><h6><span className='text-gray-400'>AI adapts to your risk tolerance and </span>autonomously executes trades.</h6></div>
             <div className='content-between flex-row lg:flex hidden xl:gap-5 xl:p-10 p-0 gap-1'>

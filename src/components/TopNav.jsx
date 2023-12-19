@@ -79,7 +79,7 @@ const TopNav = () => {
                 </div>
             </nav>
             
-            <div className='w-10 h-10 md:hidden block cursor-pointer' onClick={menuToggle}>
+            <div className='w-10 h-10 md:hidden block cursor-pointer z-10' onClick={menuToggle}>
                 <img src={menu} alt="menu" className='w-full h-full object-contain' />
             </div>
             <BlueRadialGradient className={'w-[700px] absolute -top-3/4 left-0 xl:left-1/2 transform -translate-x-1/2 -translate-y-1/2 xl:-translate-y-1/3'}/>

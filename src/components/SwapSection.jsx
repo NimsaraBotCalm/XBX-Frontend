@@ -8,7 +8,7 @@ import { FaGreaterThan } from "react-icons/fa";
 const SwapSection = () => {
     return (
         <section className='text-white xl:px-20 px-10 pb-20 max-w-[2000px] mx-auto'>
-            <h1 className='text-center md:text-8xl text-5xl header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest mb-10 md:mb-3'><span className='stroke-text'>SWAP </span>AND<br /> SNIPER <span className='stroke-text'>BOT</span> TIERS</h1>
+            <h1 className='text-center xl:text-8xl md:text-5xl text-3xl header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest mb-10 md:mb-6 xl:mb-3'><span className='stroke-text'>SWAP </span>AND<br /> SNIPER <span className='stroke-text'>BOT</span> TIERS</h1>
             {/* DESKTOP */}
             <div className='mb-10 md:mb-0 relative justify-between lg:px-10 items-center flex lg:flex-row flex-col-reverse'>
                 <div className='lg:w-1/2 w-full relative green-gradient-sm md:backdrop-blur-md'>

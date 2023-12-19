@@ -13,13 +13,13 @@ const MainBanner = () => {
     return (
         <section className='text-white text-center relative py-10 capitalize max-w-[2000px] mx-auto'>
             <h4 className='md:text-xl text-sm font-bold header-font md:tracking-[20px] tracking-widest'>RAPID ACCESS</h4>
-            <h1 className='md:text-8xl text-5xl header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest'><span className='stroke-text'>ADVA</span>NCED</h1>
+            <h1 className='xl:text-8xl md:text-5xl text-3xl header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest'><span className='stroke-text'>ADVA</span>NCED</h1>
             <div className='md:w-[800px] w-full mx-auto relative z-[1] px-10 md:px-0 green-gradient'>
-                <h1 className='md:text-8xl text-5xl absolute top-7 left-1/2 transform -translate-x-1/2 header-font md:tracking-widest'>ANAL<span className='stroke-text'>YTICS</span></h1>
+                <h1 className='xl:text-8xl md:text-5xl text-3xl absolute top-7 left-1/2 transform -translate-x-1/2 header-font md:tracking-widest'>ANAL<span className='stroke-text'>YTICS</span></h1>
                 <div className='md:w-[700px] w-full mx-auto p-10'>
                     <img src={worldImage} alt="world-image" className='w-full h-full object-contain' />
                 </div>
-                <h6 className='md:text-2xl text-lg absolute top-1/3 left-1/2 transform -translate-x-1/2 w-full tracking-wider'>ULTIMATE TOOL FOR ON-CHAIN TRADING</h6>
+                <h6 className='md:text-2xl text-md absolute top-1/3 left-1/2 transform -translate-x-1/2 w-full tracking-wider'>ULTIMATE TOOL FOR ON-CHAIN TRADING</h6>
                 <div className='flex items-center justify-center md:gap-10 gap-5 w-full absolute top-1/2 left-0'>
                     <ShapedTpButton label={'Join Portal'} />
                     <ShapedTpButton label={'Dashboard'} />
@@ -44,10 +44,10 @@ const MainBanner = () => {
                     <Link to={'https://www.telegram.com'} target='_blank'><PiTelegramLogo /></Link>
                 </div>
             </div>
-            <div className='flex items-center flex-col absolute bottom-0 right-0 md:left-1/2 z-10 transform -translate-x-1/2 cursor-pointer'>
+            {/* <div className='flex items-center flex-col absolute bottom-0 right-0 md:left-1/2 z-10 transform -translate-x-1/2 cursor-pointer'>
                 <p>Scroll Down</p>
                 <img src={scrollImage} alt="scroll-icon" className='w-10 h-10' />
-            </div>
+            </div> */}
         </section>
     )
 }

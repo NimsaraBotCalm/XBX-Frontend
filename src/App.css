@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/eurostile-mn');
 
 .blue-gradient{
-    background: radial-gradient(circle, rgba(0, 110, 172, 0.7) 1%, rgba(0, 0, 0, 0) 70%);  
+    background: radial-gradient(circle, rgba(0, 110, 172, 0.5) 1%, rgba(0, 0, 0, 0) 70%);  
 }
 
 .green-gradient{
@@ -9,10 +9,13 @@
 }
 
 .green-gradient-sm{
-    background: radial-gradient(circle, rgba(0, 255, 224, 0.3) 1%, rgba(0, 0, 0, 0) 50%);  
+    background: radial-gradient(circle, rgba(0, 255, 224, 0.1) 1%, rgba(0, 0, 0, 0) 50%);  
 }
 .blue-gradient-sm{
-    background: radial-gradient(circle, rgba(0, 110, 172, 0.3) 1%, rgba(0, 0, 0, 0) 50%);  
+    background: radial-gradient(circle, rgba(0, 110, 172, 0.2) 1%, rgba(0, 0, 0, 0) 50%);  
+}
+.blue-gradient-lg{
+    background: radial-gradient(circle, rgba(0, 110, 172, 0.2) 1%, rgba(0, 0, 0, 0) 70%);  
 }
 
 .header-font{
