@@ -6,9 +6,7 @@ import ShapedTpButton from './ShapedTpButton'
 import { BsTwitterX } from "react-icons/bs";
 import { PiTelegramLogo } from "react-icons/pi";
 import { FaGithub } from "react-icons/fa";
-import supChain from '../assets/chain.svg';
 import { Link } from 'react-router-dom';
-import scrollImage from '../assets/scroll-icon.svg'
 import { motion } from "framer-motion"
 import chain1 from '../assets/chain-1.svg';
 import chain2 from '../assets/chain-2.svg';
