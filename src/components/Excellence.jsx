@@ -18,7 +18,7 @@ const Excellence = () => {
             </div>
             <div>
                 <img src={starImage} className='w-3 text-white' />
-                <div className='lg:w-52 flex items-start text-sm 4xl:text-lg md:mb-20 text-left md:text-left my-10 md:my-5'><h6>From a multitude of tokens,<span className='text-gray-400'>Yagami Analytics</span><br />identifies and highlights<span className='text-gray-400'>those with</span>potential interest</h6></div>
+                <div className='lg:w-52 4xl:w-72 flex items-start text-sm 4xl:text-2xl md:mb-20 text-left md:text-left my-10 md:my-5'><h6>From a multitude of tokens,<span className='text-gray-400'>Yagami Analytics</span><br />identifies and highlights<span className='text-gray-400'>those with</span>potential interest</h6></div>
             </div>
         </section>
     )
