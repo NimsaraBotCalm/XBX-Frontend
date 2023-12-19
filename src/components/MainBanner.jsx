@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 import scrollImage from '../assets/scroll-icon.svg'
 const MainBanner = () => {
     return (
-        <section className='text-white text-center relative py-10 capitalize'>
+        <section className='text-white text-center relative py-10 capitalize max-w-[2000px] mx-auto'>
             <h4 className='md:text-xl text-sm font-bold header-font md:tracking-[20px] tracking-widest'>RAPID ACCESS</h4>
             <h1 className='md:text-8xl text-5xl header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest'><span className='stroke-text'>ADVA</span>NCED</h1>
             <div className='md:w-[800px] w-full mx-auto relative z-[1] px-10 md:px-0 green-gradient'>

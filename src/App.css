@@ -11,6 +11,9 @@
 .green-gradient-sm{
     background: radial-gradient(circle, rgba(0, 255, 224, 0.3) 1%, rgba(0, 0, 0, 0) 50%);  
 }
+.blue-gradient-sm{
+    background: radial-gradient(circle, rgba(0, 110, 172, 0.3) 1%, rgba(0, 0, 0, 0) 50%);  
+}
 
 .header-font{
     font-family: 'Eurostile MN', sans-serif !important;

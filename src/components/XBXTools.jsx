@@ -7,7 +7,7 @@ import mobileBorderBox from '../assets/mobile-tool-box.svg'
 import moneyIcon from '../assets/money-icon.svg'
 const XBXTools = () => {
     return (
-        <section className='text-white py-40 text-center xl:px-20 lg:px-10 green-gradient-sm'>
+        <section className='text-white md:py-40 py-10 text-center xl:px-20 lg:px-10 green-gradient-sm max-w-[2000px] mx-auto'>
             <h1 className='md:text-8xl text-5xl header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest'><span className='stroke-text'>XBX </span>TOOLS</h1>
             <br />
             <div className='flex items-start ml-auto text-sm md:mb-20 text-left md:text-center w-52'><img src={starImage} className='w-3 text-white' /><h6><span className='text-gray-400'>AI adapts to your risk tolerance and </span>autonomously executes trades.</h6></div>
@@ -65,7 +65,7 @@ const XBXTools = () => {
                     </div>
                 </div>
             </div>
-            <div className='content-between flex-col lg:hidden flex gap-10 mt-10'>
+            <div className='content-between flex-col lg:hidden flex gap-10 mt-10 p-10'>
                 <div className='w-full relative'>
                     <img src={mobileBorderBox} alt="tool-border" className='w-full h-full object-contain' />
                     <div className='absolute top-0 left-0 p-5'>
@@ -75,7 +75,7 @@ const XBXTools = () => {
                         <h4 className='text-white font-bold text-xl text-left my-2'>ANALYTICS TOOLS</h4>
                         <p className='text-gray-500 text-sm text-left'>ON-CHAIN ALPHA</p>
                     </div>
-                    <div className='absolute w-32 -bottom-6 right-10'>
+                    <div className='absolute w-fit -bottom-6 right-10'>
                         <ShapedTpButton label={'About'} className={''} />
                     </div>
                 </div>
@@ -88,7 +88,7 @@ const XBXTools = () => {
                         <h4 className='text-white font-bold text-xl text-left my-2'>ANALYTICS TOOLS</h4>
                         <p className='text-gray-500 text-sm text-left'>ON-CHAIN ALPHA</p>
                     </div>
-                    <div className='absolute w-32 -bottom-6 right-10'>
+                    <div className='absolute w-fit -bottom-6 right-10'>
                         <ShapedTpButton label={'About'} className={''} />
                     </div>
                 </div>
@@ -101,7 +101,7 @@ const XBXTools = () => {
                         <h4 className='text-white font-bold text-xl text-left my-2'>ANALYTICS TOOLS</h4>
                         <p className='text-gray-500 text-sm text-left'>ON-CHAIN ALPHA</p>
                     </div>
-                    <div className='absolute w-32 -bottom-6 right-10'>
+                    <div className='absolute w-fit -bottom-6 right-10'>
                         <ShapedTpButton label={'About'} className={''} />
                     </div>
                 </div>
@@ -114,7 +114,7 @@ const XBXTools = () => {
                         <h4 className='text-white font-bold text-xl text-left my-2'>ANALYTICS TOOLS</h4>
                         <p className='text-gray-500 text-sm text-left'>ON-CHAIN ALPHA</p>
                     </div>
-                    <div className='absolute w-32 -bottom-6 right-10'>
+                    <div className='absolute w-fit -bottom-6 right-10'>
                         <ShapedTpButton label={'About'} className={''} />
                     </div>
                 </div>

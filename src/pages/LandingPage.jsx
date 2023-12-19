@@ -2,6 +2,7 @@ import React from 'react'
 import TopNav from '../components/TopNav'
 import MainBanner from '../components/MainBanner'
 import XBXTools from '../components/XBXTools'
+import SwapSection from '../components/SwapSection'
 
 const LandingPage = () => {
   return (
@@ -9,6 +10,7 @@ const LandingPage = () => {
     <TopNav/>
     <MainBanner/>
     <XBXTools/>
+    <SwapSection/>
     </main>
   )
 }

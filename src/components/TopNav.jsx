@@ -12,7 +12,7 @@ const TopNav = () => {
         setMenuShow((prev)=> !prev);
     }
     return (
-        <div className='flex items-center justify-between relative px-10 xl:px-20 lg:px-10'>
+        <div className='flex items-center justify-between relative px-10 xl:px-20 lg:px-10 max-w-[2000px] mx-auto'>
             <div className='w-1/2 z-10'>
                 <div className='md:w-32 md:h-32 w-24 h-24 xl:ml-auto xl:mr-0 mr-auto transform xl:translate-x-1/2 cursor-pointer'>
                     <img src={logo} alt="logo" className='w-full h-full object-contain' />
