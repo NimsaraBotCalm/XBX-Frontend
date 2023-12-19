@@ -24,7 +24,7 @@ const SwapSection = () => {
                             <p className='text-gray-300 md:text-right text-xs md:text-sm'>FEES : 0.8%</p>
                         </div>
 
-                        <ul className='xl:mt-0 mt-10 4xl:mt-10'>
+                        <ul className='xl:mt-0 mt-10 4xl:mt-10 uppercase'>
                             <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Multichain Sniper & Trading Bot</li>
                             <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Uniswap V3</li>
                             <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Bribing & Bundle Submission</li>
@@ -33,7 +33,7 @@ const SwapSection = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='w-52 flex items-start justify-center text-sm 4xl:text-lg md:mb-20 md:text-center my-10 md:my-0'><img src={starImage} className='w-3 text-white' /><h6><span className='text-gray-400'>AI adapts to your risk tolerance and </span>autonomously executes trades.</h6></div>
+                <div className='w-52 flex items-start justify-center text-sm 4xl:text-2xl 4xl:w-72 md:mb-20 md:text-center my-10 md:my-0'><img src={starImage} className='w-3 text-white' /><h6><span className='text-gray-400'>AI adapts to your risk tolerance and </span>autonomously executes trades.</h6></div>
             </div>
             <div className='lg:w-1/2 relative blue-gradient-sm ml-auto lg:-mt-52 xl:hover:-translate-y-2 transition-all cursor-pointer'>
                 <img src={swapdesk02} className='w-full h-full object-contain lg:block hidden' />
@@ -45,7 +45,7 @@ const SwapSection = () => {
                         <p className='text-gray-300 text-right text-xs md:text-sm'>LIMITED ACCESS</p>
                     </div>
 
-                    <ul className='xl:mt-10 mt-10'>
+                    <ul className='xl:mt-10 mt-10 uppercase'>
                         <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Multichain Sniper & Trading Bot</li>
                         <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Uniswap V3</li>
                         <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Bribing & Bundle Submission</li>
