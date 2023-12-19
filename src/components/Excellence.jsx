@@ -1,11 +1,14 @@
 import React from 'react'
 import ShapedTpButton from './ShapedTpButton'
 import starImage from '../assets/star.png'
+import { motion } from 'framer-motion'
 
 const Excellence = () => {
     return (
         <section className='text-white xl:px-20 px-10 pb-20 max-w-[2000px] mx-auto relative'>
-            <h1 className=' text-center xl:text-8xl md:text-5xl text-3xl header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest mb-10 md:mb-3'><span className='stroke-text'>ALPHA </span>WITH<br /> ON-CHAIN ANALYTICS<br /><span className='stroke-text'>EXCELLENCE</span></h1>
+            <motion.div initial={{ x: 80 }} whileInView={{ x: 0 }} transition={{ duration: 1 }}  viewport={{ once: true }}>
+                <h1 className=' text-center xl:text-8xl md:text-5xl text-3xl header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest mb-10 md:mb-3'><span className='stroke-text'>ALPHA </span>WITH<br /> ON-CHAIN ANALYTICS<br /><span className='stroke-text'>EXCELLENCE</span></h1>
+            </motion.div>
             <div className='z-10 flex items-center justify-center md:gap-10 gap-5 w-full my-20'>
                 <ShapedTpButton label={'Join Portal'} />
                 <ShapedTpButton label={'Dashboard'} />

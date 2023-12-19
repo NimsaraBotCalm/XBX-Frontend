@@ -4,8 +4,8 @@ import stepsCount from '../assets/steps-count.svg'
 import { FaGreaterThan } from 'react-icons/fa'
 const ThreeSteps = () => {
   return (
-    <section className='flex items-center md:flex-row flex-col xl:px-20 gap-10'>
-      <div className='md:w-1/3 w-full relative'>
+    <section className='flex items-center lg:flex-row flex-col xl:px-20 gap-10 px-10'>
+      <div className='lg:w-1/3 w-full relative'>
         <img src={stepsBorder} alt="border" className='w-full' />
         <div className='absolute -top-10 xl:-left-10'>
           <div className='w-20 relative'>
@@ -19,7 +19,7 @@ const ThreeSteps = () => {
           <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Realtime token analytics</li>
         </ul>
       </div>
-      <div className='md:w-1/3 w-full relative'>
+      <div className='lg:w-1/3 w-full relative xl:-translate-y-10'>
         <img src={stepsBorder} alt="border" className='w-full' />
         <div className='absolute -top-10 xl:-left-10'>
           <div className='w-20 relative'>
@@ -33,7 +33,7 @@ const ThreeSteps = () => {
           <li className='flex items-center gap-2 xl:mb-4 text-sm md:text-md'><FaGreaterThan />Realtime token analytics</li>
         </ul>
       </div>
-      <div className='md:w-1/3 w-full relative'>
+      <div className='lg:w-1/3 w-full relative xl:-translate-y-24'>
         <img src={stepsBorder} alt="border" className='w-full' />
         <div className='absolute -top-10 xl:-left-10'>
           <div className='w-20 relative'>

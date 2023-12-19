@@ -5,65 +5,69 @@ import upChart from '../assets/up.svg'
 import borderBOx from '../assets/tool-box.svg'
 import mobileBorderBox from '../assets/mobile-tool-box.svg'
 import moneyIcon from '../assets/money-icon.svg'
+import { motion } from "framer-motion"
+
 const XBXTools = () => {
     return (
         <section className='text-white md:py-40 py-10 text-center xl:px-20 lg:px-10 green-gradient-sm max-w-[2000px] mx-auto overflow-hidden'>
-            <h1 className='xl:text-8xl md:text-5xl text-3xl mb-10 md:mb-0 header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest'><span className='stroke-text'>XBX </span>TOOLS</h1>
+            <motion.div initial={{ x: 100 }} whileInView={{ x: 0 }} transition={{ duration: 1 }}  viewport={{ once: true }} >
+                <h1 className='xl:text-8xl md:text-5xl text-3xl mb-10 md:mb-0 header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest'><span className='stroke-text'>XBX </span>TOOLS</h1>
+            </motion.div>
             <br />
-            <div className='flex items-start ml-auto text-sm md:mb-20 text-left md:text-center w-52'><img src={starImage} className='w-3 text-white' /><h6><span className='text-gray-400'>AI adapts to your risk tolerance and </span>autonomously executes trades.</h6></div>
+            <div className='flex items-start md:ml-auto mx-auto md:mx-0 text-sm md:mb-20 text-left md:text-center w-52'><img src={starImage} className='w-3 text-white' /><h6><span className='text-gray-400'>AI adapts to your risk tolerance and </span>autonomously executes trades.</h6></div>
             <div className='content-between flex-row lg:flex hidden xl:gap-5 xl:p-10 p-0 gap-1'>
-                <div className='w-1/4 relative'>
-                    <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
-                    <div className='absolute top-0 left-0 p-10'>
-                        <div className='w-16 h-16'>
-                            <img src={upChart} alt="up-arrow" className='w-full h-full object-contain' />
+                    <div className='w-1/4 relative xl:-translate-y-32'>
+                        <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
+                        <div className='absolute top-0 left-0 p-10'>
+                            <div className='w-16 h-16'>
+                                <img src={upChart} alt="up-arrow" className='w-full h-full object-contain' />
+                            </div>
+                            <h4 className='text-white font-bold text-4xl text-left my-5'>ANALYTICS<br />TOOLS</h4>
+                            <p className='text-gray-500 text-lg text-left'>ON-CHAIN<br />ALPHA</p>
                         </div>
-                        <h4 className='text-white font-bold text-4xl text-left my-5'>ANALYTICS<br/>TOOLS</h4>
-                        <p className='text-gray-500 text-lg text-left'>ON-CHAIN<br />ALPHA</p>
-                    </div>
-                    <div className='absolute w-48 -bottom-6 right-10'>
-                        <ShapedTpButton label={'About'} className={''} />
-                    </div>
-                </div>
-                <div className='w-1/4 relative'>
-                    <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
-                    <div className='absolute top-0 left-0 p-10'>
-                        <div className='w-16 h-16'>
-                            <img src={moneyIcon} alt="up-arrow" className='w-full h-full object-contain' />
+                        <div className='absolute w-48 -bottom-6 right-10'>
+                            <ShapedTpButton label={'About'} className={''} />
                         </div>
-                        <h4 className='text-white font-bold text-4xl text-left my-5'>ANALYTICS<br/>TOOLS</h4>
-                        <p className='text-gray-500 text-lg text-left'>ON-CHAIN<br />ALPHA</p>
                     </div>
-                    <div className='absolute w-48 -bottom-6 right-10'>
-                        <ShapedTpButton label={'About'} className={''} />
-                    </div>
-                </div>
-                <div className='w-1/4 relative'>
-                    <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
-                    <div className='absolute top-0 left-0 p-10'>
-                        <div className='w-16 h-16'>
-                            <img src={upChart} alt="up-arrow" className='w-full h-full object-contain' />
+                    <div className='w-1/4 relative xl:-translate-y-20'>
+                        <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
+                        <div className='absolute top-0 left-0 p-10'>
+                            <div className='w-16 h-16'>
+                                <img src={moneyIcon} alt="up-arrow" className='w-full h-full object-contain' />
+                            </div>
+                            <h4 className='text-white font-bold text-4xl text-left my-5'>ANALYTICS<br />TOOLS</h4>
+                            <p className='text-gray-500 text-lg text-left'>ON-CHAIN<br />ALPHA</p>
                         </div>
-                        <h4 className='text-white font-bold text-4xl text-left my-5'>ANALYTICS<br/>TOOLS</h4>
-                        <p className='text-gray-500 text-lg text-left'>ON-CHAIN<br />ALPHA</p>
-                    </div>
-                    <div className='absolute w-48 -bottom-6 right-10'>
-                        <ShapedTpButton label={'About'} className={''} />
-                    </div>
-                </div>
-                <div className='w-1/4 relative'>
-                    <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
-                    <div className='absolute top-0 left-0 p-10'>
-                        <div className='w-16 h-16'>
-                            <img src={moneyIcon} alt="up-arrow" className='w-full h-full object-contain' />
+                        <div className='absolute w-48 -bottom-6 right-10'>
+                            <ShapedTpButton label={'About'} className={''} />
                         </div>
-                        <h4 className='text-white font-bold text-4xl text-left my-5'>ANALYTICS<br/>TOOLS</h4>
-                        <p className='text-gray-500 text-lg text-left'>ON-CHAIN<br />ALPHA</p>
                     </div>
-                    <div className='absolute w-48 -bottom-6 right-10'>
-                        <ShapedTpButton label={'About'} className={''} />
+                    <div className='w-1/4 relative xl:-translate-y-10'>
+                        <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
+                        <div className='absolute top-0 left-0 p-10'>
+                            <div className='w-16 h-16'>
+                                <img src={upChart} alt="up-arrow" className='w-full h-full object-contain' />
+                            </div>
+                            <h4 className='text-white font-bold text-4xl text-left my-5'>ANALYTICS<br />TOOLS</h4>
+                            <p className='text-gray-500 text-lg text-left'>ON-CHAIN<br />ALPHA</p>
+                        </div>
+                        <div className='absolute w-48 -bottom-6 right-10'>
+                            <ShapedTpButton label={'About'} className={''} />
+                        </div>
                     </div>
-                </div>
+                    <div className='w-1/4 relative'>
+                        <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
+                        <div className='absolute top-0 left-0 p-10'>
+                            <div className='w-16 h-16'>
+                                <img src={moneyIcon} alt="up-arrow" className='w-full h-full object-contain' />
+                            </div>
+                            <h4 className='text-white font-bold text-4xl text-left my-5'>ANALYTICS<br />TOOLS</h4>
+                            <p className='text-gray-500 text-lg text-left'>ON-CHAIN<br />ALPHA</p>
+                        </div>
+                        <div className='absolute w-48 -bottom-6 right-10'>
+                            <ShapedTpButton label={'About'} className={''} />
+                        </div>
+                    </div>
             </div>
             <div className='content-between flex-col lg:hidden flex gap-10 mt-10 p-10'>
                 <div className='w-full relative'>
