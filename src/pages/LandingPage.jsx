@@ -35,21 +35,23 @@ const LandingPage = () => {
 
 
   return (
-    <main className='bg-noise-image relative'>
-      <TopNav />
-      <MainBanner />
-      <XBXTools />
-      <SwapSection />
-      <Excellence />
-      <RoadMap />
-      <ThreeSteps />
-      <Footer />
+    <main className='bg-noise-image relative '>
+      <div className='overflow-x-hidden'>
+        <TopNav />
+        <MainBanner />
+        <XBXTools />
+        <SwapSection />
+        <Excellence />
+        <RoadMap />
+        <ThreeSteps />
+        <Footer />
+      </div>
       <div
-        className='flex items-center flex-col sticky bottom-5 left-[95%] z-10 cursor-pointer text-white w-fit'
+        className='flex items-center flex-col sticky bottom-5 md:left-[95%] left-[80%] z-10 cursor-pointer text-white w-fit'
         onClick={handleScroll}
       >
         <p className='text-xs'>{isAtTop ? 'Scroll Down' : 'Scroll Up'}</p>
-        <img src={scrollImage} alt='scroll-icon' className={`w-10 h-10 ${isAtTop ? '' : 'rotate-180'}`} />
+        <img src={scrollImage} alt='scroll-icon' className={`transition-300 transition-all w-10 h-10 ${isAtTop ? '' : 'rotate-180'}`} />
       </div>
     </main>
   )

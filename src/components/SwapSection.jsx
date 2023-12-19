@@ -5,10 +5,14 @@ import swapdesk01Mobile from '../assets/swap-box-1-mobile.svg'
 import swapdesk02Mobile from '../assets/swap-box-2-mobile.svg'
 import starImage from '../assets/star.png'
 import { FaGreaterThan } from "react-icons/fa";
+import { motion } from 'framer-motion';
+
 const SwapSection = () => {
     return (
         <section className='text-white xl:px-20 px-10 pb-20 max-w-[2000px] mx-auto'>
-            <h1 className='text-center xl:text-8xl md:text-5xl text-3xl header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest mb-10 md:mb-6 xl:mb-3'><span className='stroke-text'>SWAP </span>AND<br /> SNIPER <span className='stroke-text'>BOT</span> TIERS</h1>
+            <motion.div initial={{ x: 50 }} whileInView={{ x: 0 }} transition={{ duration: 1 }}  viewport={{ once: true }}>
+                <h1 className='text-center xl:text-8xl md:text-5xl text-3xl header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest mb-10 md:mb-6 xl:mb-3'><span className='stroke-text'>SWAP </span>AND<br /> SNIPER <span className='stroke-text'>BOT</span> TIERS</h1>
+            </motion.div>
             {/* DESKTOP */}
             <div className='mb-10 md:mb-0 relative justify-between lg:px-10 items-center flex lg:flex-row flex-col-reverse'>
                 <div className='lg:w-1/2 w-full relative green-gradient-sm md:backdrop-blur-md'>
@@ -29,7 +33,7 @@ const SwapSection = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='lg:w-52 flex items-start text-sm md:mb-20 text-left md:text-center my-10 md:my-0'><img src={starImage} className='w-3 text-white' /><h6><span className='text-gray-400'>AI adapts to your risk tolerance and </span>autonomously executes trades.</h6></div>
+                <div className='w-52 flex items-start justify-center text-sm md:mb-20 md:text-center my-10 md:my-0'><img src={starImage} className='w-3 text-white' /><h6><span className='text-gray-400'>AI adapts to your risk tolerance and </span>autonomously executes trades.</h6></div>
             </div>
             <div className='lg:w-1/2 relative blue-gradient-sm ml-auto lg:-mt-52'>
                 <img src={swapdesk02} className='w-full h-full object-contain lg:block hidden' />
