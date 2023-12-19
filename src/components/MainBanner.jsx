@@ -69,31 +69,31 @@ const MainBanner = () => {
                     <p className='text-white text-sm mb-5 4xl:text-lg'>Support Chains</p>
                     <div className='flex items-center justify-between gap-3'>
                         <div className='w-16 h-16 cursor-pointer'>
-                        <img src={chain1} alt="supported-chains" className='w-full h-full object-contain' />
+                        <img src={chain1} alt="supported-chains" className='w-full h-full object-contain hover:brightness-150' />
                         </div>
                         <div className='w-16 h-16 cursor-pointer'>
-                        <img src={chain2} alt="supported-chains" className='w-full h-full object-contain' />
+                        <img src={chain2} alt="supported-chains" className='w-full h-full object-contain hover:brightness-150' />
                         </div>
                         <div className='w-16 h-16 cursor-pointer'>
-                        <img src={chain3} alt="supported-chains" className='w-full h-full object-contain' />
+                        <img src={chain3} alt="supported-chains" className='w-full h-full object-contain hover:brightness-150' />
                         </div>
                         <div className='w-16 h-16 cursor-pointer'>
-                        <img src={chain4} alt="supported-chains" className='w-full h-full object-contain' />
+                        <img src={chain4} alt="supported-chains" className='w-full h-full object-contain hover:brightness-150' />
                         </div>
                     </div>
                 </div>
     
                 <div className='text-2xl 4xl:text-4xl ml-auto w-fit flex md:flex-col gap-5 mr-20 z-10 mt-10'>
                 <motion.div initial={{ x: 50 }} animate={{ x: 0 }} transition={{ duration: 1 }}>
-                    <Link to={'https://www.twitter.com'} target='_blank'><BsTwitterX /></Link>
+                    <Link to={'https://www.twitter.com'} target='_blank' className='hover:brightness-50'><BsTwitterX /></Link>
                     </motion.div>
                     <motion.div initial={{ x: 50 }} animate={{ x: 0 }} transition={{ duration: 1 }}>
 
-                    <Link to={'https://wwww.github.com'} target='_blank'><FaGithub /></Link>
+                    <Link to={'https://wwww.github.com'} target='_blank' className='hover:brightness-50'><FaGithub /></Link>
                     </motion.div>
                     <motion.div initial={{ x: 50 }} animate={{ x: 0 }} transition={{ duration: 1 }}>
 
-                    <Link to={'https://www.telegram.com'} target='_blank'><PiTelegramLogo /></Link>
+                    <Link to={'https://www.telegram.com'} target='_blank' className='hover:brightness-50'><PiTelegramLogo /></Link>
                     </motion.div>
                    
                 </div>
